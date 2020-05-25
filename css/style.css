@@ -87,7 +87,13 @@ i {
 }
 @media screen and (max-width: 767px) {
   * {
-    /* overflow-x: hidden; */
+  }
+  #showcase {
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: none;
   }
   #big-header {
     font-size: 3rem;
