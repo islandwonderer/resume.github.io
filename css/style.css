@@ -1,0 +1,135 @@
+body {
+}
+/* colors
+dark color: rgb(82, 62, 31);
+med color: rgba(82, 62, 31, 0.527);
+active button: cadetblue
+light color: rgba(201, 186, 171, 0.527);
+li*/
+#showcase {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  background: url("/img/markus-winkler-QFPtc0EGCtI-unsplash.jpg");
+  background-size: cover;
+}
+#showcase .primary-overlay {
+  background: rgba(82, 62, 31, 0.527);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#big-header {
+  color: rgb(82, 62, 31);
+  font-size: 5rem;
+}
+#showcase .scroll-down {
+  height: 80px;
+  width: 120px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+}
+#showcase .scroll-down .fas {
+  color: #ffffff;
+  padding-right: 2px;
+  padding-top: 12px;
+}
+.navbar {
+  background-color: #222222;
+  position: absolute;
+  right: 5%;
+  top: 100%;
+  width: 120px;
+  z-index: 999;
+}
+.navbar-nav .active {
+  background-color: cadetblue;
+}
+
+ul {
+  list-style-type: none;
+}
+.nav-item {
+  width: 120px;
+  height: 80px;
+}
+
+.fa-star {
+  color: cadetblue;
+}
+i {
+  color: rgb(82, 62, 31);
+}
+#profile,
+#skills,
+#contact {
+  background-color: white;
+}
+#experience,
+#projects {
+  background-color: rgba(201, 186, 171, 0.527);
+}
+
+#footer {
+  background-color: rgba(82, 62, 31, 0.527);
+  width: 100%;
+  height: 200px;
+  color: rgb(82, 62, 31);
+}
+@media screen and (max-width: 767px) {
+  * {
+    /* overflow-x: hidden; */
+  }
+  #big-header {
+    font-size: 3rem;
+  }
+  #showcase .scroll-down {
+    padding: 0 0;
+    margin: 0 0;
+    height: 90px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    width: 100%;
+    background-color: #222222;
+    z-index: 2;
+  }
+  #showcase .scroll-down .fas {
+    color: #ffffff;
+    align-self: center;
+  }
+  #main-nav {
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    z-index: 8;
+  }
+  .nav-link {
+    font-size: 1rem;
+    color: rgb(82, 62, 31);
+  }
+  .navbar-nav .active {
+    background-color: cadetblue;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navbar-toggler {
+    align-self: center;
+  }
+}
